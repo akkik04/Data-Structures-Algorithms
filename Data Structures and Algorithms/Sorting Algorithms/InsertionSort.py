@@ -15,7 +15,7 @@ def insertion_sort(list):
             # swapping method.
             list[i], list[i-1] = list[i-1], list[i]
 
-            # continuing to compare adjacent elements in the list.
+            # continuing algorithm.
             i = i -1
     return(list)
 
