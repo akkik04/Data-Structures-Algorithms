@@ -1,4 +1,4 @@
-# GRADING STUDENTS HACKER-RANK SOLUTION:
+# MIGRATORY BIRDS HACKER-RANK SOLUTION:
 
 # function receiving parameter of the array.
 def migratoryBird(arr):
