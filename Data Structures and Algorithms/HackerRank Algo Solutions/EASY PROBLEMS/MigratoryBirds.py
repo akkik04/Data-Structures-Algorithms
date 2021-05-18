@@ -1,6 +1,6 @@
 # MIGRATORY BIRDS HACKER-RANK SOLUTION:
 
-# function receiving parameter of the array.
+# function receiving argument as the array.
 def migratoryBird(arr):
 
     # initializing a list of zeroes.
