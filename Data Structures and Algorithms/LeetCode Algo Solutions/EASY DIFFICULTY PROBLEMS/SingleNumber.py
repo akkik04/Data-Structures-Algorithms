@@ -5,12 +5,15 @@ class Solution(object):
 
     # creating a function to solve the problem.
     def singleNumber(self, nums):
-
-        # creating a for-loop to iterate through the set of elements.
-        for i in set(nums):
-
-            # creating a nested if-statement to return the index of the element if it is found only once.
-            if nums.count(i) == 1:
-
-                # returning the element found only once if the condition is met.
-                return i
+        
+        # creating a variable and initializing it to '0'.
+        x = 0
+        
+        # creating a for-loop to iterate for the nums.
+        for i in nums:
+            
+            # utilizing the 'XOR' method as any number 'XOR' itself will get result 0, and a number XOR 0 will get itself. 
+            x = i ^ x
+        
+        # returning the final single number after I 'XOR' numbers with each other.
+        return x
