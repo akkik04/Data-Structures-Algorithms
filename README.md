@@ -19,6 +19,9 @@ To view miscellaneous algorithms that are not solutions to any website click [he
 ### **Edabit Algorithmic Solutions:**
 - I solved multiple problems that require algorithmic thinking from the Edabit website. Click [here](https://github.com/akkik04/Algorithms-DataStructures/tree/main/Data%20Structures%20and%20Algorithms/Edabit%20Algo%20Solutions) to see them.
 
+### **Edabit Data Structures Solutions:**
+- I'm working with multiple data structures through this website. The problems range in difficulty from Easy-to-Expert. Click [here](https://github.com/akkik04/Algorithms-DataStructures/tree/main/Data%20Structures%20and%20Algorithms/Edabit%20DS%20Solutions) to my solutions to their problems.
+
 
 
 
