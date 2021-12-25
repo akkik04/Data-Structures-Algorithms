@@ -1,4 +1,4 @@
-// AUTOMORPHIC NUMBERS EDABIT SOLUTION (JAVA):
+// SEVEN BOOM! EDABIT SOLUTION (JAVA):
 
 // importing the required modules.
 import java.util.Scanner;
