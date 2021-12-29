@@ -5,22 +5,28 @@ import java.util.Scanner;
 
 public class PositivesAndNegatives {
 
-    // creating a function to return 
+    // creating a function to return the appropriate boolean value.
     public static boolean positiveAndNegative(int arr[]){
-
+        
+        // creating an if-statement to check for the case of a direct 'false'.
         if ((arr.length == 1) && (arr[0] == 0)){
-
+            
+            // returning 'false' if the condition is met.
             return false;
         }
-
+        
+        // creating a for-loop to iterate for the length of the array.
         for (int i=0; i < arr.length - 1; i++){
-
+            
+            // creating a nested if-statement to check if the product of adjacent elements is positive.
             if (arr[i] * arr[i + 1] >= 0){
-
+                
+                // returning 'false', as the sum should be negative for alternating signed elements.
                 return false;
             }
         }
         
+        // returning 'true' if no objections are met.
         return true;
     }
 
@@ -41,7 +47,8 @@ public class PositivesAndNegatives {
 
             arr[i] = kp.nextInt();
         }
-
+        
+        // creating a variable to store and output the boolean value returned by the function.
         boolean answer = positiveAndNegative(arr);
         System.out.println(answer);
     }
